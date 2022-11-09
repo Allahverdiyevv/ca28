@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+     
+      <div class="jumbotron  p-5  " style="background-color:#e9ecef">
+        <div class="container">
+            <h1 class="display-2">Hello, world!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout
+                called a jumbotron and three supporting pieces of content. Use it as a starting point to create
+                something more unique.</p>
+            <p><a class="btn btn-primary mt-3 btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+        </div>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">HTML</h1>
+            <p>HTML (ing. Hypertext Markup Language) — brauzerin oxuya biləcəyi hər hansı sənədi və ya səhifəni yaratmaq üçün xüsusi hipermətn dilidir. HTML internetin fundamental baza texnologiyasıdır və veb-səhifənin növünü, funksiyasını təyin edən diskriptorlar əsasında yaradılmış dildir.</p>
+            <p>
+                <a class="btn btn-secondary" target="_blank" href="https://www.w3schools.com/html/"
+                    role="button"> More Details »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">JavaScript</h1>
+            <p></p>
+            <p>
+                JavaScript, web geliştiricilerinin web sayfaları, uygulamalar, sunucular ve hatta oyunlar geliştirirken daha dinamik etkileşimler oluşturmak için yaygın olarak kullandıkları hafif bir programlama dilidir.</p>
+            <p>
+                <a class="btn btn-secondary" target="_blank"
+                    href="https://www.w3schools.com/js/" role="button">More
+                    Details »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">CSS</h1>
+            <p>İngilizcesi “Cascading Style Sheets” olan CSS açılımı, “Basamaklanmış Stil Katmanları” anlamına gelmektedir. “CSS nedir?” sorusunun cevabı ise web sitelerinin görsel olarak şekillendirilmesine olanak tanıyan ve kendine has kuralları olan bir tanım dilidir şeklinde ifade edilebilir. HTML ve JavaScript ile birlikte en temel web teknolojileri arasında bulunan CSS, web sayfaları üzerinde oldukça fazla görsel denetim sunar. </p>
+            <p>
+                <a class="btn btn-secondary" target="_blank" href="https://www.vargonen.com/blog/css-nedir-css-kodlari-nelerdir/"
+                    role="button">More Details »</a>
+            </p>
+        </div>
+        </main>
+        <hr>
+        <footer class="hehe">
+            <p> @Company  2017-2018</p>
+        </footer>
+
+</body>
+</html>
